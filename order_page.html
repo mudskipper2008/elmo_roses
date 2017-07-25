@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Elmo's Roses</title>
+<link rel="stylesheet" href="style3.css">
+</head>
+<body>
+<form action="/action_page.php" method="post">
+	<fielset>
+		<legend>Thông tin người mua hoa</legend>
+		<br>
+		<br>
+	<table>
+		<tr>
+		    <td>Ho</td>
+		    <td><input type="text" name="Ho:" value="Nguyen Thu"></td>
+	  	</tr>
+	  	<tr>
+		    <td>Ten</td>
+		    <td><input type="text" name="Tn:" value="Thuy"></td>
+	  	</tr>	
+	  	<tr>
+		    <td>Dia chi</td>
+		    <td><textarea name="Dia chi" rows="10" cols="30">Dia chi tai day</textarea></td>
+	  	</tr>
+		<tr>
+			<td>Gioi tinh</td>	
+			<td><select name="Gioi tinh">
+				<option value="Nam">Nam</option>
+				<option value="Nu">Nữ</option>
+				<option value="Khac">Khác</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>So luong mua</td>	
+			<td> <input list="number" name="number">
+					<datalist id="number">
+						<option value="1">
+						<option value="2">
+						<option value="3">
+					</datalist>
+			</td>
+		</tr>
+		<tr>
+			<td>Chon mau</td>	
+			<td> <input type="color" name="mau hoa" value="#ff0000">
+			</td>
+		</tr>
+		<tr>
+			<td>Email</td>	
+			<td> <input type="email" name="email">
+			</td>
+			</tr>
+		</tr>
+		<tr>
+			<td>So dien thoai</td>	
+			<td> <input type="tel" name="sdt" value="0973469720" readonly>
+			</td>
+		</tr>
+		<tr>
+			<td>Ngay lay hoa</td>	
+			<td> <input type="date" name="Ngay lay hoa">
+			</td>
+		</tr>
+	</table>
+	<br>
+	<input type="submit" value="submit">
+	<input type="reset">
+	</fielset>
+
+</form>
+</body>
+</html>
